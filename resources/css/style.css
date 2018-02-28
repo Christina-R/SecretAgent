@@ -1,0 +1,72 @@
+html,
+body{
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  margin: 0 0 0 225px;
+/*  border: 1px solid yellow;*/
+}
+
+
+'Header section'
+
+.paceholder{ /*whatever is does, it makes appear the background-image in .middle-head-->*/
+}
+
+.black-top{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  height: 95px;
+  color: white;
+}
+
+.middle-head{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../moto.jpeg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 360px;
+}
+
+.black-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 200px;
+  width: 400px;
+  background-color: black;
+  color: white;
+}
+
+.black-box *{
+  padding: 0 1.85rem;
+  line-height: 3rem;
+}
+
+.black-box h2{
+  font-size: 2rem;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.red-bottom{
+  background-color: firebrick;
+  height: 57px;
+}
+
+.logo{
+  width: 48px;
+  height: auto;
+  padding-right: 1rem;
+}
+
