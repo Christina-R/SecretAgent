@@ -8,12 +8,13 @@ body{
   display: flex;
   align-items: center;
   width: 1000px;
-  margin: 0 0 0 225px;
+  margin: 0 225px;
 /*  border: 1px solid yellow;*/
+  /*  border property just as visualization aid*/
 }
 
 
-'Header section'
+/*Header section*/
 
 .paceholder{ /*whatever is does, it makes appear the background-image in .middle-head-->*/
 }
@@ -25,6 +26,13 @@ body{
   height: 95px;
   color: white;
 }
+
+.logo{
+  width: 48px;
+  height: auto;
+  padding-right: 1rem;
+}
+
 
 .middle-head{
   display: flex;
@@ -59,14 +67,129 @@ body{
   font-weight: bold;
 }
 
+
 .red-bottom{
+  display: flex;
+  align-items: center;
   background-color: firebrick;
   height: 57px;
 }
 
-.logo{
-  width: 48px;
-  height: auto;
-  padding-right: 1rem;
+.container-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 225px;
+/*  border: 1px solid green;*/
+  /*  border property just as visualization aid*/
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+/*Middle section*/
+
+.container-pictures{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 900px;
+  margin: 2.5rem 225px;
+/*  border: 1px solid green;*/
+  /*  border property just as visualization aid*/
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 300px;
+/*  border: 3px dotted red;*/
+/*  border property just as visualization aid*/
+}
+
+.image{
+  width: auto;
+  height: 100%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px solid black;
+}
+
+.pen{
+  background-image: url(../pen.png);
+}
+
+.watch{
+  background-image: url(../watch.png);
+}
+
+.glasses{
+  background-image: url(../glasses.png);
+}
+
+.capture{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+
+
+.container-location-hour{
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+/*  border: 3px dotted red;*/
+}
+
+.location{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 2rem;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+
+.number{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 260px;
+  height: 2rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+/*Footer section*/
+
+footer{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  height: 180px;
+}
+
+.container-footer{
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  margin: 0 225px;
+/*  border: 1px solid yellow;*/
+  /*  border property just as visualization aid*/
 }
 
