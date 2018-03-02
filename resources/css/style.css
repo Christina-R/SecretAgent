@@ -1,14 +1,15 @@
 html,
 body{
   font-family: Helvetica;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .container{
   display: flex;
   align-items: center;
-  width: 1000px;
-  margin: 0 225px;
+/*  justify-content: center;*/
+  width: 960px;
+/*  margin: 0 225px;*/
 /*  border: 1px solid yellow;*/
   /*  border property just as visualization aid*/
 }
@@ -22,27 +23,45 @@ body{
 .black-top{
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: black;
-  height: 95px;
+/*  height: 95px;*/
   color: white;
+  padding: 0.66rem 0;
 }
 
 .logo{
-  width: 48px;
-  height: auto;
+/*  width: 48px;*/
+/*  height: auto;*/
+  height: 1.5rem;
+  width: auto;
   padding-right: 1rem;
+  padding-left: 0.5rem;
 }
 
+.black-top p{
+  font-size: 1rem;
+}
 
 .middle-head{
   display: flex;
-  flex-direction: column;
+/*  flex-direction: column;*/
   justify-content: center;
   background-image: url(../moto.jpeg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 360px;
+  height: 25rem;
+}
+
+.container{
+  display: flex;
+/*  align-items: center;*/
+/*  justify-content: center;*/
+  width: 960px;
+/*  margin: 0 225px;*/
+/*  border: 1px solid yellow;*/
+  /*  border property just as visualization aid*/
 }
 
 .black-box{
@@ -50,15 +69,19 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: 200px;
-  width: 400px;
+/*  height: 200px;*/
+  width: 20rem;
   background-color: black;
   color: white;
+  padding: 2rem 3rem;
+  margin-top: 7rem;
 }
 
 .black-box *{
-  padding: 0 1.85rem;
-  line-height: 3rem;
+  padding: 0.25rem 0;
+/*  line-height: 3rem;*/
+  font-size: 1rem,
+  font-weight: bold;
 }
 
 .black-box h2{
@@ -71,18 +94,20 @@ body{
 .red-bottom{
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: firebrick;
-  height: 57px;
+/*  height: 57px;*/
+  padding: 0.75rem 0;
 }
 
 .container-nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1000px;
-  margin: 0 225px;
+  width: 960px;
+/*  margin: 0 225px;*/
 /*  border: 1px solid green;*/
-  /*  border property just as visualization aid*/
+/*  border property just as visualization aid*/
 }
 
 a{
@@ -93,12 +118,21 @@ a{
 
 /*Middle section*/
 
+.main-section{
+  display: flex;
+  justify-content: center;
+  
+}
+
 .container-pictures{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 900px;
-  margin: 2.5rem 225px;
+  width: 960px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  
+/*  margin: 2.5rem 225px;*/
 /*  border: 1px solid green;*/
   /*  border property just as visualization aid*/
 }
@@ -106,19 +140,20 @@ a{
 .product{
   display: flex;
   flex-direction: column;
-  width: 280px;
-  height: 300px;
+  width: 30%;
+/*  height: 300px;*/
 /*  border: 3px dotted red;*/
 /*  border property just as visualization aid*/
 }
 
 .image{
   width: auto;
-  height: 100%;
+  height: 9rem;
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
-  border: 3px solid black;
+  border: 4px solid black;
+  padding: 2rem 0;
 }
 
 .pen{
@@ -137,10 +172,10 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 2rem;
+/*  height: 2rem;*/
   background-color: black;
   color: white;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 
@@ -148,27 +183,28 @@ a{
   display: flex;
   flex-direction: column;
   width: 450px;
+  margin-bottom: 1rem;
 /*  border: 3px dotted red;*/
 }
 
 .location{
   display: flex;
-  justify-content: center;
+/*  justify-content: center;*/
   align-items: center;
-  width: 260px;
-  height: 2rem;
+  width: 65%;
+/*  height: 2rem;*/
   background-color: black;
   color: white;
-  padding: 1rem;
+  padding: 1rem 0 1rem 2rem;
 }
 
 .number{
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 260px;
+  width: 65%;
   height: 2rem;
-  padding: 0.5rem;
+/*  padding: 0.5rem;*/
   margin-top: 1rem;
   font-weight: bold;
 }
@@ -178,17 +214,18 @@ a{
 footer{
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: black;
   color: white;
   font-weight: bold;
-  height: 180px;
+  height: 10rem;
 }
 
 .container-footer{
   display: flex;
   align-items: center;
-  width: 1000px;
-  margin: 0 225px;
+  width: 960px;
+/*  margin: 0 225px;*/
 /*  border: 1px solid yellow;*/
   /*  border property just as visualization aid*/
 }
